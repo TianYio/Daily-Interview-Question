@@ -4,72 +4,37 @@
 
 欢迎 PR 你认为不错的面试题，欢迎在 Issue 区留下你的答案，共同参与这个伟大的项目。
 
+<br/>
 
 
 ## 今日面试题
 
-2019-03-15
+2019-04-23
 
-> 第 34 题：简单改造下面的代码，使之分别打印 10 和 20。
+> 第 60 题：已知如下代码，如何修改才能让图片宽度为 300px ？注意下面代码不可修改。
+>
+> `<img src="1.jpg" style="width:480px!important;”>`
 
-```js
-var b = 10;
-(function b(){
-    b = 20;
-    console.log(b); 
-})();
-```
-欢迎在 Issue 区留下你的答案。
+
+
+欢迎在 Issue 区留下你的答案
+
+<br/>
+
 
 
 
 ## 本周汇总
 
-2019-03-14
+2019-04-22
 
-> 第 33 题：下面的代码打印什么内容，为什么？
+> 第 59 题：给定两个数组，写一个方法来计算它们的交集。
+>
+> 例如：给定 nums1 = [1, 2, 2, 1]，nums2 = [2, 2]，返回 [2, 2]。
 
-```js
-var b = 10;
-(function b(){
-    b = 20;
-    console.log(b); 
-})();
-```
+解析：[第 59 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/102)
 
-解析：[第 33 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/48)
-
-
-
-2019-03-13
-
-> 第 32 题：Virtual DOM 真的比操作原生 DOM 快吗？谈谈你的想法。
-
-解析：[第 32 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/47)
-
-
-
-2019-03-12
-
-> 第 31 题：改造下面的代码，使之输出0 - 9，写出你能想到的所有解法。
-
-```js
-for (var i = 0; i< 10; i++){
-	setTimeout(() => {
-		console.log(i);
-    }, 1000)
-}
-```
-
-解析：[第 31 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/43)
-
-
-
-2019-03-11
-
-> 第 30 题：请把两个数组 ['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'D1', 'D2'] 和 ['A', 'B', 'C', 'D']，合并为 ['A1', 'A2', 'A', 'B1', 'B2', 'B', 'C1', 'C2', 'C', 'D1', 'D2', 'D']。
-
-解析： [第 30 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/39)
+<br/>
 
 
 
@@ -77,14 +42,27 @@ for (var i = 0; i< 10; i++){
 
 -   [前端面试题及答案汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
 
+<br/>
+
+
+
+## 半月刊
+
+- [【半月刊 1】前端高频面试题及答案汇总](https://juejin.im/post/5c6977e46fb9a049fd1063dc)
+- [【半月刊 2】前端高频面试题及答案汇总](https://juejin.im/post/5c7bd72ef265da2de80f7f17)
+- [【半月刊 3】前端高频面试题及答案汇总](https://juejin.im/post/5c9ac3f66fb9a070e056718f)
+- [【半月刊 4】前端高频面试题及答案汇总](https://juejin.im/post/5cb3376bf265da039c0543da)
+
+<br/>
+
 
 
 ## 交流
 
-进阶系列文章汇总如下，内有优质前端资料，觉得不错点个 star。
+进阶系列文章汇总如下，觉得不错点个 star，欢迎 **加群** 互相学习。
 
 > [https://github.com/yygmind/blog](https://github.com/yygmind/blog)
 
 我是木易杨，公众号「高级前端进阶」作者，跟着我**每周重点攻克一个前端面试重难点**。接下来让我带你走进高级前端的世界，在进阶的路上，共勉！
 
-如果你想加群讨论每期面试知识点，公众号回复「 [加群]() 」即可 ![image](https://github.com/yygmind/blog/raw/master/images/weixin_re.png)
+![image](https://github.com/yygmind/blog/raw/master/images/weixin_re.png)
